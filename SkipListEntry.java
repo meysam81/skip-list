@@ -35,40 +35,4 @@ public class SkipListEntry {
 	 * 				|	 leftLink    |
 	 * 				------------------
 	 * */
-	
-	
-	
-	
-	/*
-	public SkipListEntry (int value, SkipListEntry upLink, SkipListEntry rightLink, 
-			SkipListEntry downLink, SkipListEntry leftLink) // constructor
-	{
-		this.value = value;
-		this.key = null;
-		this.up = upLink;
-		this.right = rightLink;
-		this.down = downLink;
-		this.left = leftLink;
-	}
-	
-	public SkipListEntry (int value) // constructor 2 (overloaded)
-	{
-		this.value = value;
-		this.key = null;
-		this.up = null;
-		this.right = null;
-		this.down = null;
-		this.left = null;
-	}
-	
-	public SkipListEntry () // constructor 3 (overloaded)
-	{
-		this.value = 0;
-		this.key = null;
-		this.up = null;
-		this.right = null;
-		this.down = null;
-		this.left = null;
-	}
-	*/
 }
