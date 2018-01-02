@@ -117,7 +117,7 @@ public class SkipList {
 			return null;
 		
 	}
-	public SkipListEntry insertRowAbove(SkipListEntry p, SkipListEntry q, String k)
+	private SkipListEntry insertRowAbove(SkipListEntry p, SkipListEntry q, String k)
 	{
 		SkipListEntry e = new SkipListEntry(k, null);
 		
